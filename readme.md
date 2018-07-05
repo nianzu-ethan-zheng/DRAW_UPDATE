@@ -13,3 +13,14 @@ KL divergence and Cross Entropy are the drive force, putting the cycle more and 
 
 Tips
 - Filterbank matrices are determined by the precious decoder output
+
+
+## Reference
+Theano
+
+- [jbornschein](https://github.com/jbornschein/draw)
+
+Pytorch: 
+
+- [chenzhaomin123](https://github.com/chenzhaomin123/draw_pytorch)
+- [skaae](https://github.com/skaae/lasagne-draw)
