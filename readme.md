@@ -1,5 +1,5 @@
 ## DRAW Structure
-
+![](https://github.com/DreamPurchaseZnz/DRAW_UPDATE/blob/master/Pic/DRAW_STRUCTURE.png)
 
 
 # Attention 
