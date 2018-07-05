@@ -1,3 +1,5 @@
+Draw: A Recurrent Neural network for Image Generation, 2015
+
 ## DRAW Structure
 ![](https://github.com/DreamPurchaseZnz/DRAW_UPDATE/blob/master/Pic/DRAW_STRUCTURE.png)
 
