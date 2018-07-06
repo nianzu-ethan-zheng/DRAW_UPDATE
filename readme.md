@@ -29,7 +29,9 @@ However the generated images are misarable. Guess that the noise dimensions are 
 
 Remark:
 - learning rate decay(exponent) is vatal to stable the training process
-- when the size of model decrease, the learning rate need to decay very quickly
+- when the size of model decrease, the learning rate need to decay very quickly, 
+So the Epoch need to be decrease as well --> e.g. when the hidden size is 100, the max epoch is 50K.
+By contrast, the epochs is 250K while while the size 10. 
 
 
 
