@@ -29,6 +29,8 @@ However the generated images are misarable. Guess that the noise dimensions are 
 
 Remark:
 - learning rate decay(exponent) is vatal to stable the training process
+- when the size of model decrease, the learning rate need to decay very quickly
+
 
 
 ## Reference
