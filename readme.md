@@ -5,17 +5,26 @@ A Recurrent Neural network for Image Generation, 2015
 ![](https://github.com/DreamPurchaseZnz/DRAW_UPDATE/blob/master/Pic/DRAW_STRUCTURE.png)
 
 
-# Attention 
+## Attention 
 
 ![Draw](https://github.com/DreamPurchaseZnz/GAN_models/blob/master/Draw/Pic/Draw.png)
 
 KL divergence and Cross Entropy are the drive force, putting the cycle more and more efficient
 
-# Read & Write 
+## Read & Write 
 ![RW](https://github.com/DreamPurchaseZnz/GAN_models/blob/master/Draw/Pic/Read%26Write.png)
 
 Tips
 - Filterbank matrices are determined by the precious decoder output
+
+
+## Remark
+The canvas can not be start with zero, otherwise sigmoid(zero)=0.5 and the canvas will be gray at begaining.
+Like the following 
+[](Pic/z50-n40_Train.gif)
+
+
+
 
 
 ## Reference
