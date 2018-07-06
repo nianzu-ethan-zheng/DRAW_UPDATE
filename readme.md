@@ -27,7 +27,8 @@ Like the following
 
 However the generated images are misarable. Guess that the noise dimensions are blamed for the shapeless image 
 
-
+Remark:
+- learning rate decay(exponent) is vatal to stable the training process
 
 
 ## Reference
