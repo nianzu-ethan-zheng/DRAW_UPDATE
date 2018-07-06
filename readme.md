@@ -21,7 +21,7 @@ Tips
 ## Remark
 The canvas can not be start with zero, otherwise sigmoid(zero)=0.5 and the canvas will be gray at begaining.
 Like the following 
-[](Pic/z50-n40_Train.gif)
+![](Pic/z50-n40_Train.gif)
 
 
 
