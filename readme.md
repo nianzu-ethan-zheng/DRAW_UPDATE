@@ -36,6 +36,9 @@ By contrast, the epochs is 250K while while the size 10.
 
 - The reference process does not meet the expectation
 
+![](Pic/z100-n64-wr25_Train.gif)
+
+![](Pic/z100-n64-wr25_Test.gif)
 
 
 
