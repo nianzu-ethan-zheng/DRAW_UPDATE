@@ -40,6 +40,10 @@ By contrast, the epochs is 250K while while the size 10.
 
 ![](Pic/z100-n64-wr25_Test.gif)
 
+Remark:
+- the model is hard to converge
+- whenever the training process perform good, it still have a bad result on test set
+
 
 
 ## Reference
