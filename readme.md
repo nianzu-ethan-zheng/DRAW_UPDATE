@@ -47,6 +47,17 @@ Remark:
 # Draw_update
 ![](Pic/Draw_update.png)
 
+## Add labels to decoder
+
+![](Pic/condition/train.gif)
+
+![](Pic/condition/test.gif)
+
+![](Pic/condition/loss_seperate.png)
+
+The result is much better.
+
+## Add a new network to recognize the labels
 
 
 
