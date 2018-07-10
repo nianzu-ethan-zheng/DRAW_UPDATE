@@ -44,6 +44,10 @@ Remark:
 - the model is hard to converge
 - whenever the training process perform good, it still have a bad result on test set
 
+# Draw_update
+![](Pic/Draw_update.png)
+
+
 
 
 ## Reference
