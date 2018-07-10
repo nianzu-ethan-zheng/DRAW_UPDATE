@@ -57,7 +57,7 @@ Pytorch:
 - [skaae](https://github.com/skaae/lasagne-draw)(**Recommend**)
 
 Tensorflow: 
-- [mnist] https://github.com/lovecambi/DRAW (**Recommend**)
+- [mnist](https://github.com/lovecambi/DRAW) (**Recommend**)
 - [birds](https://github.com/hollygrimm/draw_birds)
 - [1D](https://github.com/RobRomijnders/DRAW_1D)
 - [Automatic GIF Generation](https://github.com/Singularity42/Sync-DRAW)
