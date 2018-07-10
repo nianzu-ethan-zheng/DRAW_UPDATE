@@ -36,9 +36,13 @@ By contrast, the epochs is 250K while while the size 10.
 
 - The reference process does not meet the expectation
 
-![](Pic/z100-n64-wr25_Train.gif)
+![](Pic/z2-n64-wr25_Train.gif)
 
-![](Pic/z100-n64-wr25_Test.gif)
+![](Pic/z2-n64-wr25_Test.gif)
+
+Remark:
+- the model is hard to converge
+- whenever the training process perform good, it still have a bad result on test set
 
 
 
@@ -53,7 +57,7 @@ Pytorch:
 - [skaae](https://github.com/skaae/lasagne-draw)(**Recommend**)
 
 Tensorflow: 
-- [mnist] https://github.com/lovecambi/DRAW (**Recommend**)
+- [mnist](https://github.com/lovecambi/DRAW) (**Recommend**)
 - [birds](https://github.com/hollygrimm/draw_birds)
 - [1D](https://github.com/RobRomijnders/DRAW_1D)
 - [Automatic GIF Generation](https://github.com/Singularity42/Sync-DRAW)
