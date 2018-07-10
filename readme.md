@@ -49,11 +49,11 @@ Remark:
 
 ## Add labels to decoder
 
-![](Pic/condition/train.gif)
+![](Pic/condition/Train.gif)
 
-![](Pic/condition/test.gif)
+![](Pic/condition/Test.gif)
 
-![](Pic/condition/loss_seperate.png)
+![](Pic/condition/Loss_separate.png)
 
 The result is much better.
 
