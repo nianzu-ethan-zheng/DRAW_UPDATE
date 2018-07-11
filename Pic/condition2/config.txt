@@ -1,0 +1,30 @@
+lr_schedule = create_lr_schedule(lr_base=4E-3, decay_rate=0.1, decay_epochs=None,
+                                         truncated_epoch=18000, start_epoch=11000, mode="tube_trans")
+wu_schedule = create_lr_schedule(lr_base=1, decay_rate=3, decay_epochs=8000,
+                                         truncated_epoch=20000, start_epoch=None, mode="exp")
+
+with condition
+
+parser = ArgumentParser()
+    parser.add_argument("--name", type=str, dest="name",
+                        default=None, help="Name for this experiment")
+    parser.add_argument("--dataset", type=str, dest="dataset",
+                        default="bmnist", help="Dataset to use: [bmnist|mnist|cifar10]")
+    parser.add_argument("--epochs", type=int, dest="epochs",
+                        default=25000, help="Number of training epochs to do")
+    parser.add_argument("--bs", "--batch-size", type=int, dest="batch_size",
+                        default=100, help="Size of each mini-batch")
+    parser.add_argument("--lr", "--learning-rate", type=float, dest="learning_rate",
+                        default=3E-3, help="Learning rate")
+    parser.add_argument("--attention", "-a", type=str,
+                        default="5,5",
+                        help="Use attention mechanism (read_window,write_window)")
+    parser.add_argument("--niter", type=int, dest="n_iter",
+                        default=64, help="No. of iterations")
+    parser.add_argument("--enc-dim", type=int, dest="enc_dim",
+                        default=256, help="Encoder RNN state dimension")
+    parser.add_argument("--dec-dim", type=int, dest="dec_dim",
+                        default=256, help="Decoder  RNN state dimension")
+    parser.add_argument("--z-dim", type=int, dest="z_dim",
+                        default=2, help="Z-vector dimension")
+    args = parser.parse_args()
