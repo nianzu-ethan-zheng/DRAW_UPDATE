@@ -59,7 +59,9 @@ The result is much better.
 
 ## Add a new network to recognize the labels
 
-
+# Random variable 
+Here I write some [explanition for ericjang's poor result](https://github.com/DreamPurchaseZnz/Tensorflow_Learning/blob/master/Constants,%20Sequences,%20and%20Random%20Values.md)
+because of the random variable defination is a mistake.
 
 ## Reference
 Theano
@@ -72,6 +74,7 @@ Pytorch:
 - [skaae](https://github.com/skaae/lasagne-draw)(**Recommend**)
 
 Tensorflow: 
+- [general version](https://github.com/ericjang/draw)
 - [mnist](https://github.com/lovecambi/DRAW) (**Recommend**)
 - [birds](https://github.com/hollygrimm/draw_birds)
 - [1D](https://github.com/RobRomijnders/DRAW_1D)
