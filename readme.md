@@ -54,6 +54,8 @@ because of the random variable defination is a mistake.
 Bigger learning rate is not always better. Despite the fact that big learning rate can speed the learning process, it also
 can cause the osillation between the optim. It is hard to converge.
 
+![](Pic/adaptive_lr.png)
+
 
 
 
