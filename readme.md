@@ -48,7 +48,7 @@ Finally the cause I found will be explained in the next section.
 Here I write some [explanition for ericjang's poor result](https://github.com/DreamPurchaseZnz/Tensorflow_Learning/blob/master/Constants,%20Sequences,%20and%20Random%20Values.md)
 because of the random variable defination is a mistake.
 
-![Variable](https://github.com/DreamPurchaseZnz/Tensorflow_Learning/blob/master/Pic/random_variable.png)
+![Variable](https://github.com/DreamPurchaseZnz/Tensorflow_Learning/blob/master/Pic/random.png)
 
 ## Learning rate
 Bigger learning rate is not always better. Despite the fact that big learning rate can speed the learning process, it also
