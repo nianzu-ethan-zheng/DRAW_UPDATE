@@ -76,7 +76,7 @@ Pytorch:
 - [skaae](https://github.com/skaae/lasagne-draw)(**Recommend**)
 
 Tensorflow: 
-- [general version](https://github.com/ericjang/draw)
+- [ericjang](https://github.com/ericjang/draw)(A mistake about random variable defination)
 - [mnist](https://github.com/lovecambi/DRAW) (**Recommend**)
 - [birds](https://github.com/hollygrimm/draw_birds)
 - [1D](https://github.com/RobRomijnders/DRAW_1D)
