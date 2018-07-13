@@ -36,18 +36,12 @@ By contrast, the epochs is 250K while while the size 10.
 
 - The reference process does not meet the expectation
 
+Finally the cause I found will be explained in the next section.
+
 # Draw_update
 ![](Pic/Draw_update.png)
 
 ## Add labels to decoder
-
-![](Pic/condition/Train.gif)
-
-![](Pic/condition/Test.gif)
-
-![](Pic/condition/Loss_separate.png)
-
-The result is much better.
 
 ## Add a new network to recognize the labels
 
