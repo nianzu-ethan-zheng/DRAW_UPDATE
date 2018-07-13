@@ -41,9 +41,8 @@ Finally the cause I found will be explained in the next section.
 # Draw_update
 ![](Pic/Draw_update.png)
 
-## Add labels to decoder
-
-## Add a new network to recognize the labels
+- Add labels to decoder
+- Add a new network to recognize the labels
 
 # Random variable 
 Here I write some [explanition for ericjang's poor result](https://github.com/DreamPurchaseZnz/Tensorflow_Learning/blob/master/Constants,%20Sequences,%20and%20Random%20Values.md)
