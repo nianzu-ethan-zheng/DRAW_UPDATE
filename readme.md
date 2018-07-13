@@ -36,14 +36,6 @@ By contrast, the epochs is 250K while while the size 10.
 
 - The reference process does not meet the expectation
 
-![](Pic/z2-n64-wr25_Train.gif)
-
-![](Pic/z2-n64-wr25_Test.gif)
-
-Remark:
-- the model is hard to converge
-- whenever the training process perform good, it still have a bad result on test set
-
 # Draw_update
 ![](Pic/Draw_update.png)
 
@@ -62,6 +54,21 @@ The result is much better.
 # Random variable 
 Here I write some [explanition for ericjang's poor result](https://github.com/DreamPurchaseZnz/Tensorflow_Learning/blob/master/Constants,%20Sequences,%20and%20Random%20Values.md)
 because of the random variable defination is a mistake.
+
+![Variable](https://github.com/DreamPurchaseZnz/Tensorflow_Learning/blob/master/Pic/random_variable.png)
+
+## Learning rate
+Bigger learning rate is not always better. Despite the fact that big learning rate can speed the learning process, it also
+can cause the osillation between the optim. It is hard to converge.
+
+
+
+
+
+
+
+
+
 
 ## Reference
 Theano
