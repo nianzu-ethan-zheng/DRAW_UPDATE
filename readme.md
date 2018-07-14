@@ -23,9 +23,12 @@ The canvas can not be start with zero, otherwise sigmoid(zero)=0.5 and the canva
 Like the following 
 
 <p align="center">
-  <img, src="Pic/z50-n40_Train.gif" width=200> <img, src="Pic/z50-n40_Test.gif" width=200>
+  <img, src="Pic/z50-n40_Train.gif" width=200> 
 </p>
-
+  
+<p align="center">
+<img, src="Pic/z50-n40_Test.gif" width=200>
+</p>
 However the generated images are misarable. Guess that the noise dimensions are blamed for the shapeless image 
 
 Remark:
