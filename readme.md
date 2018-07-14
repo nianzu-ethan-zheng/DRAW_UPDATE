@@ -59,9 +59,9 @@ can cause the osillation between the optim. It is hard to converge.
 
 ## result of draw
 
-![](Pic/draw/train.gif)
+![](Pic/draw/Train.gif)
 
-![](Pic/draw/test.gif)
+![](Pic/draw/Test.gif)
 
 Remark:
 
