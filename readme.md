@@ -36,28 +36,32 @@ By contrast, the epochs is 250K while while the size 10.
 
 - The reference process does not meet the expectation
 
-![](Pic/z2-n64-wr25_Train.gif)
-
-![](Pic/z2-n64-wr25_Test.gif)
-
-Remark:
-- the model is hard to converge
-- whenever the training process perform good, it still have a bad result on test set
+Finally the cause I found will be explained in the next section.
 
 # Draw_update
 ![](Pic/Draw_update.png)
 
-## Add labels to decoder
+- Add labels to decoder
+- Add a new network to recognize the labels
 
-![](Pic/condition/Train.gif)
+# Random variable 
+Here I write some [explanition for ericjang's poor result](https://github.com/DreamPurchaseZnz/Tensorflow_Learning/blob/master/Constants,%20Sequences,%20and%20Random%20Values.md)
+because of the random variable defination is a mistake.
 
-![](Pic/condition/Test.gif)
+![Variable](https://github.com/DreamPurchaseZnz/Tensorflow_Learning/blob/master/Pic/random.png)
 
-![](Pic/condition/Loss_separate.png)
+## Learning rate
+Bigger learning rate is not always better. Despite the fact that big learning rate can speed the learning process, it also
+can cause the osillation between the optim. It is hard to converge.
 
-The result is much better.
+![](Pic/adaptive_lr.png)
 
-## Add a new network to recognize the labels
+
+
+
+
+
+
 
 
 
@@ -72,6 +76,7 @@ Pytorch:
 - [skaae](https://github.com/skaae/lasagne-draw)(**Recommend**)
 
 Tensorflow: 
+- [ericjang](https://github.com/ericjang/draw)(A mistake about random variable defination)
 - [mnist](https://github.com/lovecambi/DRAW) (**Recommend**)
 - [birds](https://github.com/hollygrimm/draw_birds)
 - [1D](https://github.com/RobRomijnders/DRAW_1D)
