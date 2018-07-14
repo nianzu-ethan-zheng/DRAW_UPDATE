@@ -57,8 +57,15 @@ can cause the osillation between the optim. It is hard to converge.
 ![](Pic/adaptive_lr.png)
 
 
+## result of draw
 
+![](Pic/draw/train.gif)
 
+![](Pic/draw/test.gif)
+
+Remark:
+
+- the figure in the test.gif has some unknown numbers.
 
 
 
