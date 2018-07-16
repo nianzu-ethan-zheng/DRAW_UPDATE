@@ -22,8 +22,7 @@ Tips
 The canvas can not be start with zero, otherwise sigmoid(zero)=0.5 and the canvas will be gray at begaining.
 Like the following 
 
-![](Pic/z50-n40_Train.gif)
-![](Pic/z50-n40_Test.gif)
+<img src="./Pic/z50-n40_Train.gif" alt="drawing" width="400px"/> <img src="./Pic/z50-n40_Test.gif" alt="drawing" width="400px"/>
 
 However the generated images are misarable. Guess that the noise dimensions are blamed for the shapeless image 
 
@@ -57,8 +56,13 @@ can cause the osillation between the optim. It is hard to converge.
 ![](Pic/adaptive_lr.png)
 
 
+## result of draw
 
+<img src="Pic/draw/Train.gif" alt=drawing width="400px"> <img src="Pic/draw/Test.gif" alt=drawing width="400px">
 
+Remark:
+
+- the figure in the test.gif has some unknown numbers.
 
 
 
