@@ -86,3 +86,5 @@ Tensorflow:
 - [1D](https://github.com/RobRomijnders/DRAW_1D)
 - [Automatic GIF Generation](https://github.com/Singularity42/Sync-DRAW)
 - [Automatic GIF Generation2](https://github.com/syncdraw/Sync-DRAW)
+
+- [Something wrong](https://github.com/amitadate/S-LSTM-GAN-MNIST)
