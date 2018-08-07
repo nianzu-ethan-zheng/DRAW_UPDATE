@@ -20,3 +20,7 @@ There are some problems：
 We just initalize the canvas as [batch_size, n_dims] * -1
 
 ![](/Pic/lstm_gan/loss_tanh-1.png)
+
+![](/Pic/lstm_gan/tanh-1.gif)
+
+![](/Pic/lstm_gan/tanh-1_g_009.png)
