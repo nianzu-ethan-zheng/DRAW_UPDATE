@@ -1,2 +1,2 @@
-# LSTM_GAN
+# LSTM GAN
 
