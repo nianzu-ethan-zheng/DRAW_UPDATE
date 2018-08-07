@@ -15,3 +15,8 @@ There are some problems：
 
 - model collapse: for example there aren't 4, 5, etc. in the image
 - the balance between the G and D is not proper. the optimal D loss should be 0.693
+
+
+We just initalize the canvas as [batch_size, n_dims] * -1
+
+![](/Pic/lstm_gan/loss_tanh-1.png)
